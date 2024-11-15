@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>achievements</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide" />
+    <style>
+        .achievement-img {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="personal-info.html">Personal Info</a>
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+                <a class="nav-link" href="favorite-links.html">Favorite Links</a>
+                <a class="nav-link" href="youtube-channels.html">YouTube Channels</a>
+                <a class="nav-link" href="clubs-achievements.html">Clubs & Achievements</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    
+    <div class="container mt-5">
+        <h2 class="text-center">Achievements</h2>
+
+        <!-- Achievement 1 -->
+        <div class="text-center">
+            <img src="Achievement1.jpg" alt="Rising Star Tournament" class="achievement-img">
+            <p>Won the Rising Star tournament for indoor sports in 2022 and 2023.</p>
+        </div>
+
+        <!-- Achievement 2 -->
+        <div class="text-center">
+            <img src="Achievement2.jpg" alt="Go-Kart Championship" class="achievement-img">
+            <p>First place in the yearly go-kart championship held in Chittagong.</p>
+        </div>
+
+        <!-- Back to Home Button -->
+        <div class="text-center">
+            <a href="index.html" class="btn btn-primary mt-3">Back to Home</a>
+        </div>
+    </div>
+    <footer id="page-info"></footer>
+<script>
+    document.getElementById("page-info").innerHTML = "Page Location: " + window.location.href + "<br>Last Modified: " + document.lastModified;
+</script>
+</body>
+</html>
+
